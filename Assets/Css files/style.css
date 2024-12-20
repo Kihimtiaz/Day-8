@@ -1,0 +1,76 @@
+/* Menu Css Start */
+* {
+  margin: 0px;
+}
+.menu-bar {
+  background-color: seagreen;
+}
+.menu-bar ul {
+  list-style-type: none;
+  text-align: center;
+}
+.menu-bar ul li {
+  display: inline-block;
+  margin-left: -4px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  font-size: larger;
+  border-right: 2px solid white;
+}
+.menu-bar ul li:first-child a {
+  border-left: 2px solid white;
+}
+.menu-bar ul li a:hover {
+  background-color: navy;
+  transition: 0.6s;
+}
+
+/* Menu Css End */
+
+.position-test {
+  position: relative;
+  border: 2px solid black;
+  display: inline-block;
+}
+.position-test h1 {
+  margin-top: 100px;
+}
+.position-test p {
+  font-family: sans-serif;
+  font-size: large;
+}
+.hahaha {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin: 0px;
+
+  background-color: saddlebrown;
+  color: white;
+}
+.btn-area {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: seagreen;
+  padding: 10px;
+  border: 2px solid seagreen;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: seagreen;
+  color: white;
+  transition: 0.5s;
+  box-shadow: 3px 3px 5px seagreen;
+}
